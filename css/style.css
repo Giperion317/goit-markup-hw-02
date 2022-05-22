@@ -7,7 +7,9 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     line-height: 1.14;
+    letter-spacing: 0.03em;
     color: #212121;
 }    
 /* --components-- */
@@ -16,14 +18,12 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     color: #2196F3;
 }
 .section-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    letter-spacing: 0.03em;
 }
 /* --components-- */
 
@@ -66,17 +66,14 @@ body{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
     color: #FFFFFF;
 }
 .hero-button:hover,
 .hero-button:focus{
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    background-color: #188CE8;
+    
 }
 /* --/section hero-- */
 
@@ -84,14 +81,11 @@ body{
 .credo-title{
     font-weight: 700;
     font-size: 14px;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .credo-text{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: #757575;
 }
 /* --/section credo-- */
@@ -101,13 +95,10 @@ body{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
 }
 .our-team-image-text{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     color: #757575;
 }
 /* --/section our team-- */
@@ -115,4 +106,16 @@ body{
 /* --footer-- */
 .logo-item-footer{
     /* color: #FFFFFF; */
+}
+.adress-link{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    /* color: #FFFFFF; */
+}
+.contact-link{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    /* color: rgba(255, 255, 255, 0.6); */
 }
